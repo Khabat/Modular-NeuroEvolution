@@ -1,0 +1,11 @@
+<Sigraph>	::=<S>;
+<S> 		::= <Node> 
+<Node>		::= <Number>, <Number>, *, sig(,<Sum> ,)
+<Sum>  		::= <Input>, *, <Number> | <Input>, *, <Number>, <Sum>
+<Input>		::= <xxList>
+<xxList> 	::= x1|x2|x3|x4|x5|x6|x7|x8|x9|xa|xb|xc|xd|xe|xf|xg|xh|xi|xj|xk|xl|xm|xo|xp|xq|xr|xs|xt|xu|xw|xx|xy
+<Number> 	::= <Digit>.<Digit> |  -<Digit>.<Digit> 
+<Digitlist> 	::=  <Digit>|<Digit><Digitlist> 
+<Digit> 	::= 0|1|2|3|4|5|6|7|8|9
+<D>		::= 0|1|2|3|4
+

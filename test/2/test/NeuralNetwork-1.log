@@ -1,0 +1,4 @@
+pool_size	run	fold	neur	tarin mse	valid_mse	test_mse	test_err	train_mse2	valid_mse2	test_mse2	test_error2	neurons1	conns1	features1	neurons2	conns2	features2
+0.0017	1.0102	0.029	0.0351	0	0	0	0	22	0	27	22	0	27
+0.0003	1.0042	0.0262	0.0351	0	0	0	0	23	0	27	23	0	27
+0.0034	1.0166	0.0209	0.0351	0	0	0	0	23	0	25	23	0	25

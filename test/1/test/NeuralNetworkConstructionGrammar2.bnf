@@ -1,0 +1,13 @@
+<Sigraph>	::=<S>;
+<S> 		::= <Node> 
+<Node>		::= <Module>, <Number>, <Number>, *, <TransferFunc>(,<Sum> ,)
+<TransferFunc>	::= sig | tanh
+<Sum>  		::= <XList>, *, <Number> | <XList>, *, <Number>, <Sum>
+<XList>		::= <xxList>
+<xnList>	::= n1
+<xxList> 	::= x1|x2
+<Number> 	::= -<D>.<Digitlist> |  +<D>.<Digitlist> 
+<Digitlist> 	::=  <Digit>|<Digit><Digitlist> 
+<Digit> 	::= 0|1|2|3|4|5|6|7|8|9
+<Module>	::= 0
+<D>		::= 0
